@@ -1,6 +1,6 @@
 import {Link, Outlet} from "react-router-dom";
 import Sidebar from "../components/shared/Sidebar";
-import Header from "../components/shared/Header";
+
 
 export default function Root() {
     return (
@@ -8,10 +8,6 @@ export default function Root() {
             <Sidebar />
 
             <div className="flex-1">
-                {/*HEADER*/}
-
-                {/*<Header />*/}
-
                 <div className="p-4">
                     <Outlet />
                 </div>
